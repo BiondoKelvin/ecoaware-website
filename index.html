@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div>
+        <img class="logo" src="images/ecoaware-logo.jpeg" alt="">
+    </div> <!--HEADER-->
+    <div class="content-page"> <!--CONTENUTO PAGINA-->
+        <div class="left-side">
+            <img class="man-mountain" src="images/man-and-mountains.jpeg" alt="">
+        </div> <!--IMMAGINE-->
+        <div class="right-side">
+            <div class="question-box">
+                <p class="text">QUANTO CO2<br>CONSUMIAMO PER OGNI<br>KW?</p>
+            </div> <!--DOMANDA-->
+            <div class="bottom-section"> <!--PULSANTI-->
+                <div class="first-section-right"> <!--PRIMA SEZIONE-->
+                        <input type="text" class="input">
+                        <p class="info-box">Completa con la quantità<br>di KW usati</p>
+                </div>
+                <div class="second-section-right">
+                    <button onclick="calculateKw()" class="convert-button">CONVERTI</button><!--BUTTON CONVERTI-->
+                </div> 
+                <div class="third-section-right">
+                        <p class="result"></p>
+                        <p class="info-box-risultato">Il tuo risultato in CO2</p>
+                </div>
+            </div>
+        </div> 
+    </div>
+</body>
+</html>
